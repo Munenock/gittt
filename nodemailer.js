@@ -13,7 +13,7 @@ var mailOptions = {
   from: 'wherea00@gmail.com',
   to: 'wherea00@gmail.com',
   subject: 'testing email',
-  text: 'That was easy trying out the git shit!'
+  text: 'That was easy'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
